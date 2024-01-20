@@ -1,0 +1,22 @@
+.filter{
+    list-style: none;
+}
+.filter_container{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    width: 80vw;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 1rem 0.5rem;
+    background-color: white;
+ 
+}
+
+.close_button{
+    padding: 0.4rem 0.8rem;
+    background-color: rgb(245, 44, 44);
+    border-radius: 4px;
+    border: none;
+}
