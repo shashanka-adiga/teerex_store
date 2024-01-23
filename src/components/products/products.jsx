@@ -20,6 +20,7 @@ export default async function Products(){
 
     return(
         <main>
+            <h1>list of all products</h1>
             <div className={`${styles.products_container}`}> 
             {
                 products.map(product => (
